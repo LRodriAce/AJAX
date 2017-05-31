@@ -1,0 +1,42 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  background-color: lightgrey; }
+
+h1, h2, p, a, span {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300; }
+
+h1, h2 {
+  color: grey; }
+
+.underline {
+  text-decoration: underline;
+  -webkit-text-decoration-color: grey;
+          text-decoration-color: grey; }
+
+.search {
+  background-color: aliceblue;
+  border: 1px black;
+  width: 60%;
+  min-width: 350px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  .search img {
+    width: 25%; }
+
+input {
+  background-color: #E6AF2E;
+  border: 0;
+  padding: 5px; }
+
+button {
+  background-color: transparent; }
+
+/*# sourceMappingURL=main.css.map */
