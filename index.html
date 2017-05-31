@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>AJAX</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="search">
+      <h1>Buscar usuarios en GitHub</h1>
+      <input type="text" class="jsGithubUser" name="user" value="" placeholder="Usuario">
+      <button type="button" class="jsSearchButton" name="button">Buscar</button>
+
+      <div class="Results">
+        <h2>Resultados</h2>
+        <p class="underline">Nombre:</p>
+        <span id="jsUserName"></span>
+        <p class="underline">Número de repositorios:</p>
+        <span id="jsRepositories"></span>
+        <p class="underline">Foto:</p>
+        <p id="jsPhoto"></p>
+      </div>
+    </div>
+    <script src="js/main.js" charset="utf-8"></script>
+  </body>
+</html>
