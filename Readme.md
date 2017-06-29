@@ -1,2 +1,2 @@
 # AJAX
-Obtener información de un perfil de GitHub usando AJAX
+  Get information from a Github profile using AJAX
